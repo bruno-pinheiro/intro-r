@@ -17,7 +17,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 	# Repository
 	provider = "GitHub"
-	repo_url = "https://github.com/bruno-pinheiro/Intro_R"
+	repo_url = "https://github.com/bruno-pinheiro/intro-r"
 
 	version = ""
 	logo = "images/logo.png"
