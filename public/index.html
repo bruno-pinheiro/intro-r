@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+  
+  
+  
+  
+   <html class="no-js"> 
+
+  <head lang="pt-br">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=10" />
+    <title>Curso de introdução à análise de dados com o R</title>
+    <meta name="generator" content="Hugo 0.42.1" />
+
+    
+    <meta name="description" content="Material do Curso de Introdução à Análise de Dados com o R">
+    
+    <link rel="canonical" href="./">
+    
+    <meta name="author" content="Bruno Pinheiro">
+    
+
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="Curso de Introdução à Análise de Dados com o R">
+    <meta property="og:image" content="/images/logo.png">
+    <meta name="apple-mobile-web-app-title" content="Curso de Introdução à Análise de Dados com o R">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+
+    <style>
+      @font-face {
+        font-family: 'Icon';
+        src: url('/fonts/icon.eot');
+        src: url('/fonts/icon.eot')
+               format('embedded-opentype'),
+             url('/fonts/icon.woff')
+               format('woff'),
+             url('/fonts/icon.ttf')
+               format('truetype'),
+             url('/fonts/icon.svg')
+               format('svg');
+        font-weight: normal;
+        font-style: normal;
+      }
+    </style>
+
+    <link rel="stylesheet" href="./stylesheets/application.css">
+    <link rel="stylesheet" href="./stylesheets/temporary.css">
+    <link rel="stylesheet" href="./stylesheets/palettes.css">
+    <link rel="stylesheet" href="./stylesheets/highlight/highlight.css">
+
+    
+    
+    
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Ubuntu:400,700|Ubuntu&#43;Mono">
+    <style>
+      body, input {
+        font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+      }
+      pre, code {
+        font-family: 'Ubuntu Mono', 'Courier New', 'Courier', monospace;
+      }
+    </style>
+
+    
+    <script src="./javascripts/modernizr.js"></script>
+
+    
+    <link href="./index.xml" rel="alternate" type="application/rss+xml" title="Curso de Introdução à Análise de Dados com o R" />
+    <link href="./index.xml" rel="feed" type="application/rss+xml" title="Curso de Introdução à Análise de Dados com o R" />
+    
+
+  </head>
+  <body class="palette-primary-teal palette-accent-red">
+
+
+
+	
+	
+
+
+<div class="backdrop">
+	<div class="backdrop-paper"></div>
+</div>
+
+<input class="toggle" type="checkbox" id="toggle-drawer">
+<input class="toggle" type="checkbox" id="toggle-search">
+<label class="toggle-button overlay" for="toggle-drawer"></label>
+
+<header class="header">
+	<nav aria-label="Header">
+  <div class="bar default">
+    <div class="button button-menu" role="button" aria-label="Menu">
+      <label class="toggle-button icon icon-menu" for="toggle-drawer">
+        <span></span>
+      </label>
+    </div>
+    <div class="stretch">
+      <div class="title">
+        Curso de introdução à análise de dados com o R
+      </div>
+    </div>
+
+    
+
+    
+    <div class="button button-github" role="button" aria-label="GitHub">
+      <a href="https://github.com/bruno-pinheiro" title="@bruno-pinheiro on GitHub" target="_blank" class="toggle-button icon icon-github"></a>
+    </div>
+    
+    
+        
+  </div>
+  <div class="bar search">
+    <div class="button button-close" role="button" aria-label="Close">
+      <label class="toggle-button icon icon-back" for="toggle-search"></label>
+    </div>
+    <div class="stretch">
+      <div class="field">
+        <input class="query" type="text" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck>
+      </div>
+    </div>
+    <div class="button button-reset" role="button" aria-label="Search">
+      <button class="toggle-button icon icon-close" id="reset-search"></button>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main class="main">
+	<div class="drawer">
+		<nav aria-label="Navigation">
+  <a href="https://github.com/bruno-pinheiro/Intro_R" class="project">
+    <div class="banner">
+      
+        <div class="logo">
+          <img src="./images/logo.png">
+        </div>
+      
+      <div class="name">
+        <strong>Curso de Introdução à Análise de Dados com o R </strong>
+        
+          <br>
+          bruno-pinheiro/Intro_R
+        
+      </div>
+    </div>
+  </a>
+
+  <div class="scrollable">
+    <div class="wrapper">
+      
+        <ul class="repo">
+          <li class="repo-download">
+            <a href="https://github.com/bruno-pinheiro/Intro_R/archive/master.zip" target="_blank" title="Download" data-action="download">
+              <i class="icon icon-download"></i> Download
+            </a>
+          </li>
+          <li class="repo-stars">
+            <a href="https://github.com/bruno-pinheiro/Intro_R/stargazers" target="_blank" title="Stargazers" data-action="star">
+              <i class="icon icon-star"></i> Stars
+              <span class="count">&ndash;</span>
+            </a>
+          </li>
+        </ul>
+        <hr>
+      
+
+      <div class="toc">
+        
+        <ul>
+          
+
+
+
+
+<li>
+  
+    
+
+
+
+<a class="current" title="Começo" href="./">
+	
+	Começo
+</a>
+
+
+<ul id="scrollspy">
+</ul>
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Aula 01: Introdução do curso" href="./aula-01/">
+	
+	Aula 01: Introdução do curso
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Aula 02: Introdução ao R" href="./aula-02/">
+	
+	Aula 02: Introdução ao R
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Aula 03: Análise exploratória de dados (Parte 1)" href="./aula-03/">
+	
+	Aula 03: Análise exploratória de dados (Parte 1)
+</a>
+
+
+
+  
+</li>
+
+
+
+<li>
+  
+    
+
+
+
+<a  title="Aula 04: Análise exploratória de dados (Parte 2)" href="./aula-04/">
+	
+	Aula 04: Análise exploratória de dados (Parte 2)
+</a>
+
+
+
+  
+</li>
+
+
+        </ul>
+        
+
+        
+        <hr>
+        <span class="section">The author</span>
+        
+        <ul>
+          
+
+          
+          <li>
+            <a href="https://github.com/bruno-pinheiro" target="_blank" title="@bruno-pinheiro on GitHub">
+              @bruno-pinheiro on GitHub
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="mailto:bruno.pinheiro.oliveira@usp.br" title="Email of bruno.pinheiro.oliveira@usp.br">
+              Contact via email
+            </a>
+          </li>
+          
+        </ul>
+        
+      </div>
+    </div>
+  </div>
+</nav>
+
+	</div>
+
+	<article class="article">
+		<div class="wrapper">
+			
+				<h1>Curso de introdução à análise de dados com o R </h1>
+
+				<div id="apresentacao" class="section level2">
+<h2>Apresentação</h2>
+<p>Nos dias atuais, não apenas os governos têm sistematizado e publicizado uma quantidade enorme de bases de dados a respeito das políticas que executam e do funcionamento da máquina pública. Atores variados da sociedade civil e da academia têm utilizado-se destes dados para colaborar na produção de inovações em serviços e na melhoria das políticas públicas como um todo.</p>
+<p>Conforme os dados tornam-se uma das mais importantes matérias-primas da inovação e da produção de bens e serviços à sociedade, a ciência de dados é cada dia mais presente na arena das políticas públicas.</p>
+<p>Neste cenário, os profissionais que atuam na área são demandados por competências relacionadas à análise de dados. O “Curso de Introdução à Análise de Dados com o R”, desta maneira, surge como uma demanda natural na área de gestão de políticas públicas da <a href="http://each.usp.br/">EACH/USP</a> - Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
+<p>O curso é uma iniciativa da <a href="http://vertunojr.wordpress.com/">Vertuno</a> - Empresa Júnior de Gestão de Políticas Públicas da USP, em parceria com o <a href="http://getip.net.br/">GETIP</a> - Grupo de Estudos em Tecnologias e Inovações na Gestão Pública e o <a href="http://www5.each.usp.br/web/prof/oipp/">OIPP</a> - Observatório Interdisciplinar de Políticas Públicas.</p>
+<p>Este site tem o material do curso, que será incrementando no decorrer dos encontros, e será mantido após o término como forma de fornecer acesso aos interessados posteriormente.</p>
+</div>
+<div id="objetivos" class="section level2">
+<h2>Objetivos</h2>
+<ul>
+<li><p>O objetivo instrumental do curso é que ao final os participantes sejam capazes de realizar análises exploratórias no R, mesmo que nunca tenham utilizado o R antes.</p></li>
+<li><p>O objetivo substantivo é quebrar a barreira inicial (e natural) que geralmente existe em setores das ciências humanas em relação à aprendizagem de uma linguagem de programação voltada à análise de dados.</p></li>
+<li><p>Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos a e empolgados para incorporar o R seguir aprendendo mais sobre o R.</p></li>
+</ul>
+</div>
+<div id="publico" class="section level2">
+<h2>Público</h2>
+<p>Este não é um curso voltado para pessoas já iniciadas e que já utilizam o R para análise de dados.</p>
+<p>Ele é voltado a pessoas que trabalham ou que pretendem trabalhar com dados e têm interesse em aprender uma linguagem computacional, apropriar-se de ferramentas de ciência aberta, mas sentem insegurança frente ao dragão da programação.</p>
+</div>
+<div id="pre-requisitos" class="section level2">
+<h2>Pré-requisitos</h2>
+<p>Não há pré-requisitos para a participação no curso. Ainda assim, você provavelmente terá um maior aproveitamento:</p>
+<ul>
+<li><p>Se usar, usar, usar e usar o R repetidamente para tarefas simples que antes você realizava com outros programas do tipo aponte e clique.</p></li>
+<li><p>Se atualmente a análise de dados é uma tarefa envolvida nas atividades do seu trabalho ou pesquisa e você puder usar, usar, usar o R ao invés de outros programas.</p></li>
+<li><p>Se você é uma pessoa que sabe aprender sozinho</p></li>
+</ul>
+</div>
+
+			
+
+			<aside class="copyright" role="note">
+				
+				&copy; 2018 Licença MIT &ndash;
+				
+				Documentation built with
+				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
+				using the
+				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+			</aside>
+
+			<footer class="footer">
+				
+
+
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  </div>
+
+  
+  
+  <div class="next">
+      <a href="./post/2015-07-23-r-rmarkdown/" title="Hello R Markdown">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              Hello R Markdown
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  </div>
+</nav>
+
+
+
+			</footer>
+		</div>
+	</article>
+
+	<div class="results" role="status" aria-live="polite">
+		<div class="scrollable">
+			<div class="wrapper">
+				<div class="meta"></div>
+				<div class="list"></div>
+			</div>
+		</div>
+	</div>
+</main>
+
+    <script>
+    
+      var base_url = '\/';
+      var repo_id  = 'bruno-pinheiro\/Intro_R';
+    
+    </script>
+
+    <script src="./javascripts/application.js"></script>
+    
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+    <script src="./mathjax-support.js"></script>
+    
+
+    <script>
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+      if(scrollspy) {
+        if(headers.length > 0) {
+          for(var i = 0; i < headers.length; i++) {
+            var li = document.createElement("li");
+            li.setAttribute("class", "anchor");
+
+            var a  = document.createElement("a");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", headers[i].innerHTML);
+            a.innerHTML = headers[i].innerHTML;
+
+            li.appendChild(a)
+            scrollspy.appendChild(li);
+          }
+        } else {
+          scrollspy.parentElement.removeChild(scrollspy)
+        }
+
+
+        /* Add permanent link next to the headers */
+        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+        for(var i = 0; i < headers.length; i++) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "../..";
+            headers[i].appendChild(a);
+        }
+      }
+    </script>
+
+    
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+  </body>
+</html>
+

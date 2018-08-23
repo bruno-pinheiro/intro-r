@@ -1,0 +1,108 @@
+---
+author: "Bruno Pinheiro"
+date: "2018-08-22"
+title: "Aula 01: Introdução do curso e primeiro contato com o R"
+weight: 10
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, eval = FALSE)
+```
+
+## Introdução
+
+$$
+\sum^{k}_{i = 1} \dfrac{3}{2}
+$$
+
+## Desafios do Curso
+
+## Análise de dados e políticas públicas
+
+## Apresentação do R e do RStudio
+
+## Primeiros comandos
+
+### Importar dados .csv
+
+```{r}
+dados <- read.csv()
+```
+
+### Checar dados
+
+* Nomes de variáveis
+
+```{r}
+names()
+```
+
+* Estrutura dos dados
+
+```{r}
+str()
+```
+
+* Sumário descritivo
+
+```{r}
+summary()
+```
+
+* Cruzamento de variáveis numéricas
+
+```{r}
+table()
+```
+
+```{r}
+prop.table(table())
+```
+
+* Visualização de variáveis numéricas (histograma e boxplot)
+
+```{r}
+hist()
+```
+
+```{r}
+boxplot()
+```
+
+* Relação entre variáveis numéricas (scatterplot)
+
+```{r}
+plot()
+```
+
+* Visualização de variáveis categóricas (barplot)
+
+```{r}
+barplot()
+```
+
+```{r}
+barplot(table())
+```
+
+## Uso de pacotes
+
+```{r}
+install.packages("ggplot2")
+```
+
+## Formas de aprender o R
+
+* Google
+* Stack Overflow
+
+## Exercício
+
+Realizar com a função `qplot()` do pacote ggplot para plotar dois dos gráficos feitos acima com as funções da base do R.
+
+```{r}
+library(ggplot2)
+qplot()
+```
+
+

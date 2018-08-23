@@ -1,0 +1,82 @@
+---
+author: "Bruno Pinheiro"
+date: "2018-08-22"
+title: "Aula 01: Introdução do curso e primeiro contato com o R"
+weight: 10
+---
+
+
+
+<div id="introducao" class="section level2">
+<h2>Introdução</h2>
+<p><span class="math display">\[
+\sum^{k}_{i = 1} \dfrac{3}{2}
+\]</span></p>
+</div>
+<div id="desafios-do-curso" class="section level2">
+<h2>Desafios do Curso</h2>
+</div>
+<div id="analise-de-dados-e-politicas-publicas" class="section level2">
+<h2>Análise de dados e políticas públicas</h2>
+</div>
+<div id="apresentacao-do-r-e-do-rstudio" class="section level2">
+<h2>Apresentação do R e do RStudio</h2>
+</div>
+<div id="primeiros-comandos" class="section level2">
+<h2>Primeiros comandos</h2>
+<div id="importar-dados-.csv" class="section level3">
+<h3>Importar dados .csv</h3>
+<pre class="r"><code>dados &lt;- read.csv()</code></pre>
+</div>
+<div id="checar-dados" class="section level3">
+<h3>Checar dados</h3>
+<ul>
+<li>Nomes de variáveis</li>
+</ul>
+<pre class="r"><code>names()</code></pre>
+<ul>
+<li>Estrutura dos dados</li>
+</ul>
+<pre class="r"><code>str()</code></pre>
+<ul>
+<li>Sumário descritivo</li>
+</ul>
+<pre class="r"><code>summary()</code></pre>
+<ul>
+<li>Cruzamento de variáveis numéricas</li>
+</ul>
+<pre class="r"><code>table()</code></pre>
+<pre class="r"><code>prop.table(table())</code></pre>
+<ul>
+<li>Visualização de variáveis numéricas (histograma e boxplot)</li>
+</ul>
+<pre class="r"><code>hist()</code></pre>
+<pre class="r"><code>boxplot()</code></pre>
+<ul>
+<li>Relação entre variáveis numéricas (scatterplot)</li>
+</ul>
+<pre class="r"><code>plot()</code></pre>
+<ul>
+<li>Visualização de variáveis categóricas (barplot)</li>
+</ul>
+<pre class="r"><code>barplot()</code></pre>
+<pre class="r"><code>barplot(table())</code></pre>
+</div>
+</div>
+<div id="uso-de-pacotes" class="section level2">
+<h2>Uso de pacotes</h2>
+<pre class="r"><code>install.packages(&quot;ggplot2&quot;)</code></pre>
+</div>
+<div id="formas-de-aprender-o-r" class="section level2">
+<h2>Formas de aprender o R</h2>
+<ul>
+<li>Google</li>
+<li>Stack Overflow</li>
+</ul>
+</div>
+<div id="exercicio" class="section level2">
+<h2>Exercício</h2>
+<p>Realizar com a função <code>qplot()</code> do pacote ggplot para plotar dois dos gráficos feitos acima com as funções da base do R.</p>
+<pre class="r"><code>library(ggplot2)
+qplot()</code></pre>
+</div>

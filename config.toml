@@ -1,0 +1,77 @@
+baseurl = "/"
+languageCode = "pt-br"
+title = "Curso de Introdução à Análise de Dados com o R"
+theme = "hugo-material-docs"
+metadataformat = "yaml"
+canonifyurls = true
+relativeurls = true
+# Enable Google Analytics by entering your tracking id
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[params]
+	# General information
+	author = "Bruno Pinheiro"
+	description = "Material do Curso de Introdução à Análise de Dados com o R"
+	copyright = "Licença MIT"
+
+	# Repository
+	provider = "GitHub"
+	repo_url = "https://github.com/bruno-pinheiro/Intro_R"
+
+	version = ""
+	logo = "images/logo.png"
+	favicon = ""
+
+	permalink = "../.."
+
+	# Custom assets
+	custom_css = []
+	custom_js  = ["https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML", "mathjax-support.js"]
+
+	# Syntax highlighting theme
+	highlight_css  = ""
+
+	[params.palette]
+    	primary = "teal"
+    	accent  = "red"
+
+    [params.font]
+    	text = "Ubuntu"
+    	code = "Ubuntu Mono"
+
+[social]
+	twitter = ""
+	github  = "bruno-pinheiro"
+	email   = "bruno.pinheiro.oliveira@usp.br"
+
+[[menu.main]]
+	name   = "Começo"
+	url    = "/"
+	weight = 1
+
+[[menu.main]]
+	name   = "Aula 01: Introdução do curso"
+	url    = "aula-01/"
+	weight = 10
+	
+[[menu.main]]
+	name   = "Aula 02: Introdução ao R"
+	url    = "aula-02/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Aula 03: Análise exploratória de dados (Parte 1)"
+	url    = "aula-03/"
+	weight = 10
+
+[[menu.main]]
+	name   = "Aula 04: Análise exploratória de dados (Parte 2)"
+	url    = "aula-04/"
+	weight = 10
+
+[blackfriday]
+	smartypants	= true
+	fractions = true
+	smartDashes = true
+	plainIDAnchors = true

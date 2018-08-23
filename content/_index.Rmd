@@ -1,0 +1,43 @@
+---
+title: "Curso de introdução à análise de dados com o R"
+author: "Bruno Pinheiro"
+date: "2018-08-22"
+type: index
+weight: 0
+---
+
+## Apresentação
+
+Nos dias atuais, não apenas os governos têm sistematizado e publicizado uma quantidade enorme de bases de dados a respeito das políticas que executam e do funcionamento da máquina pública. Atores variados da sociedade civil e da academia têm utilizado-se destes dados para colaborar na produção de inovações em serviços e na melhoria das políticas públicas como um todo.
+
+Conforme os dados tornam-se uma das mais importantes matérias-primas da inovação e da produção de bens e serviços à sociedade, a ciência de dados é cada dia mais presente na arena das políticas públicas.
+
+Neste cenário, os profissionais que atuam na área são demandados por competências relacionadas à análise de dados. O "Curso de Introdução à Análise de Dados com o R", desta maneira, surge como uma demanda natural na área de gestão de políticas públicas da [EACH/USP](http://each.usp.br/) - Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.
+
+O curso é uma iniciativa da [Vertuno](http://vertunojr.wordpress.com/) - Empresa Júnior de Gestão de Políticas Públicas da USP, em parceria com o [GETIP](http://getip.net.br/) - Grupo de Estudos em Tecnologias e Inovações na Gestão Pública e o [OIPP](http://www5.each.usp.br/web/prof/oipp/) - Observatório Interdisciplinar de Políticas Públicas.
+
+Este site tem o material do curso, que será incrementando no decorrer dos encontros, e será mantido após o término como forma de fornecer acesso aos interessados posteriormente.
+
+## Objetivos
+
+* O objetivo instrumental do curso é que ao final os participantes sejam capazes de realizar análises exploratórias no R, mesmo que nunca tenham utilizado o R antes.
+
+* O objetivo substantivo é quebrar a barreira inicial (e natural) que geralmente existe em setores das ciências humanas em relação à aprendizagem de uma linguagem de programação voltada à análise de dados.
+
+* Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos a e empolgados para incorporar o R seguir aprendendo mais sobre o R.
+
+## Público
+
+Este não é um curso voltado para pessoas já iniciadas e que já utilizam o R para análise de dados.
+
+Ele é voltado a pessoas que trabalham ou que pretendem trabalhar com dados e têm interesse em aprender uma linguagem computacional, apropriar-se de ferramentas de ciência aberta, mas sentem insegurança frente ao dragão da programação.
+
+## Pré-requisitos
+
+Não há pré-requisitos para a participação no curso. Ainda assim, você provavelmente terá um maior aproveitamento:
+
+* Se usar, usar, usar e usar o R repetidamente para tarefas simples que antes você realizava com outros programas do tipo aponte e clique.
+
+* Se atualmente a análise de dados é uma tarefa envolvida nas atividades do seu trabalho ou pesquisa e você puder usar, usar, usar o R ao invés de outros programas.
+
+* Se você é uma pessoa que sabe aprender sozinho
