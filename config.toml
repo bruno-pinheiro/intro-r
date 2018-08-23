@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	repo_url = "https://github.com/bruno-pinheiro/intro-r"
 
 	version = ""
-	logo = "images/logo.png"
+	logo = "images/logo_curso_intro-r.png"
 	favicon = ""
 
 	permalink = "../.."
