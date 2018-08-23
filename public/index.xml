@@ -17,8 +17,20 @@
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/aula-01/</guid>
-      <description>Introdução \[ \sum^{k}_{i = 1} \dfrac{3}{2} \]
- Desafios do Curso  Análise de dados e políticas públicas  Apresentação do R e do RStudio  Primeiros comandos Importar dados .csv dados &amp;lt;- read.csv()  Checar dados  Nomes de variáveis  names()  Estrutura dos dados  str()  Sumário descritivo  summary()  Cruzamento de variáveis numéricas  table() prop.table(table())  Visualização de variáveis numéricas (histograma e boxplot)  hist() boxplot()  Relação entre variáveis numéricas (scatterplot)  plot()  Visualização de variáveis categóricas (barplot)  barplot() barplot(table())   Uso de pacotes install.</description>
+      <description>Objetivos da aula  Detalhar o curso e como participar dele
+ Apresentar e entender a interface do R e o RStudio
+ Conhecer o fluxo de trabalho (console, scripts, rmarkdown, projetos)
+ Experimentar os primeiros comandos para a exploração de conjuntos de dados
+   O curso O “Curso de Introdução à Análise de Dados com o R” está estruturado para, em 8 encontros de duas horas cada, ensinar as e os participantes a explorar questões-problema por meio da análise de conjuntos de dados, aplicando técnicas próprias da linguagem R.</description>
+    </item>
+    
+    <item>
+      <title>Aula 03: Análise exploratória de dados (parte 1)</title>
+      <link>/aula-03/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/aula-03/</guid>
+      <description>Formulate your question Read in your data Check the packaging Run str() Look at the top and the bottom of your data Check your “n”s Validate with at least one external data source Try the easy solution first Challenge your solution Follow up</description>
     </item>
     
     <item>
