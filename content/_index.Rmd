@@ -24,7 +24,7 @@ Este site tem o material do curso, que será incrementando no decorrer dos encon
 
 * O objetivo substantivo é quebrar a barreira inicial (e natural) que geralmente existe em setores das ciências humanas em relação à aprendizagem de uma linguagem de programação voltada à análise de dados.
 
-* Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos a e empolgados para incorporar o R seguir aprendendo mais sobre o R.
+* Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos e empolgados para seguir aprendendo mais sobre o R e incorporar o seu no cotidiano.
 
 ## Público
 
