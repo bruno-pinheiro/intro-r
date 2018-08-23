@@ -12,7 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 [params]
 	# General information
 	author = "Bruno Pinheiro"
-	description = "Material do Curso de Introdução à Análise de Dados com o R"
+	description = "Material do Curso de introdução à análise de dados com o R"
 	copyright = "Licença MIT"
 
 	# Repository
