@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	repo_url = "https://github.com/bruno-pinheiro/intro-r"
 
 	version = ""
-	logo = "images/logo_curso_intro-r.png"
+	logo = "images/logo-intro-r.png"
 	favicon = ""
 
 	permalink = "//."
@@ -56,25 +56,10 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	weight = 2
 	
 [[menu.main]]
-	name   = "Aula 02: Introdução ao R"
-	url    = "aula-02/"
-	weight = 3
-
-[[menu.main]]
-	name   = "Aula 03: Análise exploratória de dados (Parte 1)"
-	url    = "aula-03/"
-	weight = 4
-
-[[menu.main]]
-	name   = "Aula 04: Análise exploratória de dados (Parte 2)"
-	url    = "aula-04/"
-	weight = 5
+	name   = "Materiais"
+	url    = "materiais/"
+	weight = 60
 	
-	[[menu.main]]
-	name   = "Aulas"
-	url    = "aulas/"
-	weight = 6
-
 [blackfriday]
 	smartypants	= true
 	fractions = true
