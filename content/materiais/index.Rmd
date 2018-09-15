@@ -2,6 +2,25 @@
 title: "Materiais do curso e de referência"
 ---
 
-Materiais do curso
+## Materiais do curso
 
-* Aula 01
+* [Aula 01](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula01.zip)
+
+
+## Materiais de referência
+
+### Livros
+
+* R for Data Science
+
+* Exploratory data analysis with R
+
+* R Cookbook
+
+* R Cookbook for Data Analysis
+
+# Cheat sheets
+
+* manipulação de dados com `dplyr`
+
+* visualização de dados com `ggplot2`
