@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curso de introdução à análise de dados com o R on Curso de Introdução à Análise de Dados com o R</title>
+    <link>/</link>
+    <description>Recent content in Curso de introdução à análise de dados com o R on Curso de Introdução à Análise de Dados com o R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    <lastBuildDate>Wed, 22 Aug 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aula 03: Análise exploratória de dados (parte 1)</title>
+      <link>/aula03/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/aula03/</guid>
+      <description>Formulate your question Read in your data Check the packaging Run str() Look at the top and the bottom of your data Check your “n”s Validate with at least one external data source Try the easy solution first Challenge your solution Follow up</description>
+    </item>
+    
+    <item>
+      <title>Aula 01: Introdução do curso</title>
+      <link>/aula01/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/aula01/</guid>
+      <description>R e RStudio O R é um ambiente e também uma linguagem para a computação estatística e a produção de gráficos. Basicamente é um programa de linha de comando1, que permite acessar, manipular e visualizar dados, criando e guardando rotinas de análise que podem ser compartilhadas e replicadas tanto na forma de scripts como na forma de pacotes.
+O programa surgiu em meados dos anos 1990 como uma alternativa para computação estatística (gratuita e de código aberto) feita para profissionais cuja origem não era a das ciências da computação.</description>
+    </item>
+    
+    <item>
+      <title>Aula 02: Introdução ao tidyverse</title>
+      <link>/aula02/</link>
+      <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/aula02/</guid>
+      <description>Tópico 1 Missing data: o “dado faltante” é um dado que deveria ou poderia estar presente no conjunto de dados, mas por algum motivo não está. No R os valores ausentes são geralmente dados por NA.  Agora vamos uní-los em um data.frame (mais adiante explicaremos o que é um data frame), para deixar os dados em forma de tabela.
+Como pode ver, cada vetor se tornou uma variável (coluna) da nossa tabela df.</description>
+    </item>
+    
+    <item>
+      <title>Materiais do curso e de referência</title>
+      <link>/materiais/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/materiais/</guid>
+      <description>Materiais do curso  Aula 01   Materiais de referência Livros  R for Data Science
+ Exploratory data analysis with R
+ R Cookbook
+ R Cookbook for Data Analysis
+    Cheat sheets  manipulação de dados com dplyr
+ visualização de dados com ggplot2
+   </description>
+    </item>
+    
+  </channel>
+</rss>
