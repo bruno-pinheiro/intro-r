@@ -54,7 +54,27 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	name   = "Aula 01: Introdução do curso"
 	url    = "aula-01/"
 	weight = 2
+
+#[[menu.main]]
+#	name   = "Aula 02: Visualização de dados"
+#	url    = "aula-02/"
+#	weight = 3
 	
+#[[menu.main]]
+#	name   = "Aula 03: Manipulação de dados"
+#	url    = "aula-03/"
+#	weight = 4
+
+#[[menu.main]]
+#	name   = "Aula 04: Análise exploratória de dados"
+#	url    = "aula-04/"
+#	weight = 5
+
+#[[menu.main]]
+#	name   = "Aula 05: Análise exploratória de dados"
+#	url    = "aula-04/"
+#	weight = 5
+
 [[menu.main]]
 	name   = "Materiais"
 	url    = "materiais/"
