@@ -36,8 +36,13 @@ O programa surgiu em meados dos anos 1990 como uma alternativa para computação
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/materiais/</guid>
-      <description>Materiais do curso
- Aula 01  </description>
+      <description>Materiais do curso  Aula 01   Materiais de referência Livros  R for Data Science
+ Exploratory data analysis with R
+ R Cookbook
+ R Cookbook for Data Analysis
+    Cheat sheets  manipulação de dados com dplyr
+ visualização de dados com ggplot2
+   </description>
     </item>
     
   </channel>
