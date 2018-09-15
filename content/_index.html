@@ -3,13 +3,16 @@ title: "Curso de introdução à análise de dados com o R"
 author: "Bruno Pinheiro"
 date: "2018-08-22"
 type: index
+css: style.css
 weight: 0
 ---
 
+  <link rel="stylesheet" href="style.css" type="text/css" />
 
 
 <div id="apresentacao" class="section level2">
 <h2>Apresentação</h2>
+<p>Então estamos começando o “Curso de Introdução à Análise de Dados com o R”. Sejam muito bem vindos e bem vindas :).</p>
 <p>Nos dias atuais, não apenas os governos têm sistematizado e publicizado uma quantidade enorme de bases de dados a respeito das políticas que executam e do funcionamento da máquina pública. Atores variados da sociedade civil e da academia têm utilizado-se destes dados para colaborar na produção de inovações em serviços e na melhoria das políticas públicas como um todo.</p>
 <p>Conforme os dados tornam-se uma das mais importantes matérias-primas da inovação e da produção de bens e serviços à sociedade, a ciência de dados é cada dia mais presente na arena das políticas públicas.</p>
 <p>Neste cenário, os profissionais que atuam na área são demandados por competências relacionadas à análise de dados. O “Curso de Introdução à Análise de Dados com o R”, desta maneira, surge como uma demanda natural na área de gestão de políticas públicas da <a href="http://each.usp.br/">EACH/USP</a> - Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.</p>
@@ -36,5 +39,71 @@ weight: 0
 <li><p>Se usar, usar, usar e usar o R repetidamente para tarefas simples que antes você realizava com outros programas do tipo aponte e clique.</p></li>
 <li><p>Se atualmente a análise de dados é uma tarefa envolvida nas atividades do seu trabalho ou pesquisa e você puder usar, usar, usar o R ao invés de outros programas.</p></li>
 <li><p>Se você é uma pessoa que sabe aprender sozinho</p></li>
+</ul>
+</div>
+<div id="o-curso" class="section level2">
+<h2>O curso</h2>
+<p>Esperamos, neste e nos próximos encontros, proporcionar a prática da aplicação de técnicas próprias da linguagem <a href="https://www.r-project.org/about.html"><code>R</code></a> para analisar conjuntos de dados a fim de explorar questões-problema.</p>
+<p>Neste processo, focaremos:</p>
+<ol style="list-style-type: decimal">
+<li><p>Em conhecer a lógica da linguagem <code>R</code> e, mais especificamente, em usar a linguagem derivada do <a href="https://dplyr.tidyverse.org/"><code>tidyverse</code></a>;</p></li>
+<li><p>Na realização de análise exploratória de dados.</p></li>
+</ol>
+<p>E para maximizar a aprendizagem prática, a filosofia em todos os encontros será:</p>
+<p><font size = "5"> Fazer primeiro, pensar depois </font></p>
+<p>Até mesmo pela extensão do curso (que somará 16 horas totais de carga horária), seu escopo é realmente introdutório. Dentro das possibilidades de uso do <code>R</code>, buscaremos nos aprofundar o tanto quanto possível nos aspectos necessários para habilitar a aprendizagem do <code>R</code>. Ou seja, mais que ensinar a usar, pretendemos ensinar a aprender o <code>R</code> de uma forma aplicada e descontraída.</p>
+<p>Não espere, portanto, que ao término do curso você sairá por aí programando em <code>R</code>. Caso dedique-se, você será capaz de entender melhor a sintaxe e algumas sutilezas e, se dedicar-se um pouco mais, será capaz de substituir programas do tipo aponte e clique como o <em>Microsoft Excel</em> ou <em>Google Spreadsheets</em> pelo <code>R</code> para manipular e visualizar dados.</p>
+<p>Isto, por si só, não é nada trivial. Há uma boa discussão a respeito das vantagens da adoção de linguagens computacionais como método de manipulação e análise de dados em relação aos programas convencionais baseados no “aponte e clique” do <em>mouse</em>.</p>
+<p>De modo geral, podemos dizer que:</p>
+<ul>
+<li><p>Tem capacidades avançadas, o custo é zero e a cada ano que passa ganha mais consistência e usabilidade;</p></li>
+<li><p>Foi feito por e para cientistas em geral e não para cientistas da computação;</p></li>
+<li><p>Agrega em si as ferramentas necessárias para cobrir todo o fluxo de trabalho: da obtenção dos dados à comunicação;</p></li>
+<li><p>É uma das maiores tendências em análise de dados;</p></li>
+<li><p>Garante acesso fácil a todo o histórico de decisões feitas no processo de manipulação e análise dos dados;</p></li>
+<li><p>Gera resultados mais confiáveis, já que o procedimento exato pode ser compartilhado;</p></li>
+<li><p>Economiza tempo, já que toda alteração pode ser mais facilmente implementada do que em programas “aponte e clique”.</p></li>
+<li><p>Aumenta o potencial de replicabilidade dos resultados obtidos, o que é um aspecto desejável de qualquer pesquisa;</p></li>
+</ul>
+<p>Para quem quiser entender melhor, sugiro a leitura das reflexões apresentadas <a href="http://fmwww.bc.edu/GStat/docs/pointclick.html">aqui</a> neste material elaborado por membros da <em>Faculty Microcomputer Resource Center</em> da <em>Boston College</em>.</p>
+</div>
+<div id="desafios" class="section level2">
+<h2>Desafios</h2>
+<p>O <code>R</code> é uma linguagem extremamente versátil. Pessoas muito experientes advogam que para cobrir todos os aspectos envolvidos na programação em <code>R</code> são necessários intensos de 5 a 6 semestres. Para pessoas com algum conhecimento prévio em linguagens de programação, o aprendizado pode até ser intuitivo, mas para quem nunca teve contato com computação estatística e programação, começar é a etapa mais difícil.</p>
+<p>Rogier Kievit, que atualmente é líder de programa na <em>MRC Cognition and Brain Sciences Unit</em> da <em>Cambridge University</em>, certa vez publicou em seu Twitter um gráfico (veja a figura <a href="#fig:curva">1</a>) que, brincando, compara a curva de aprendizagem de alguns programas de análise de dados.</p>
+{{% tweet "730863729420701697" %}}
+<div class="figure" style="text-align: center"><span id="fig:curva"></span>
+<img src="img/learning-r.jpeg" alt="Curvas de aprendizagem" width="60%" />
+<p class="caption">
+Figure 1: Curvas de aprendizagem
+</p>
+</div>
+<p>Brincadeiras à parte, o gráfico de certa forma traduz um pouco da realidade. O <code>R</code> é uma linguagem complexa e, de fato, aprender o básico implica aprender muita coisa. Isto pode tornar a curva de aprendizagem inicial um verdadeiro campo de batalha e levar muitos a desistir pelo caminho.</p>
+<p>A primeira boa notícia é que não precisa ser exatamente assim. Mais recentemente, o conjunto de pacotes conhecido como <code>tidyverse</code> estabeleceu uma abordagem mais estruturada e consistente para trabalhar com dados no R, o que torna inclusive o aprendizado mais fácil. A segunda boa notícia é que, superadas as barreiras iniciais, os usuários em geral perceberação que seu potencial de análise de dados subiu para outro patamar.</p>
+<p>Neste contexto, portanto, teremos alguns desafios para lidar conjuntamente. Principalmente:</p>
+<ul>
+<li><p>É o primeiro curso deste tipo que fazemos, então tudo é novidade e estamos todos literalmente aprendendo juntos;</p></li>
+<li><p>O curso é extremamente curto, o que vai demandar atenção pessoal dedicada e intensiva;</p></li>
+<li><p>Não há muito material em português;</p></li>
+<li><p>As aulas não serão suficientes para apropriar-se da linguagem: o <code>R</code> só se aprende usando. Instale em sua máquina e tente usar em suas tarefas rotineiras.</p></li>
+</ul>
+</div>
+<div id="como-vai-funcionar" class="section level2">
+<h2>Como vai funcionar?</h2>
+<ul>
+<li>O curso é presencial e terá 8 encontros, com duas horas cada, somando 16h de carga horária. Em cada encontro trataremos dos seguintes temas:
+<ol style="list-style-type: decimal">
+<li>Introdução ao R</li>
+<li>Sumarização e visualização de dados</li>
+<li>Manipulação de dados</li>
+<li>Funções</li>
+<li>…</li>
+</ol></li>
+<li>Cada encontro conterá três partes:
+<ol style="list-style-type: lower-alpha">
+<li>Uma parte inicial mais explanatória, para apresentar o que será trabalhado no dia;</li>
+<li>Uma segunda parte na qual vamos experimentar formas de analisar dados na linha de comando;</li>
+<li>Uma terceira parte na qual realizaremos um exercício para colocar em prática o que foi aprendido no dia.</li>
+</ol></li>
 </ul>
 </div>

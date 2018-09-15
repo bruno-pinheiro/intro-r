@@ -1,12 +1,12 @@
 baseurl = "/"
-languageCode = "pt-br"
+languageCode = "pt-BR"
 title = "Curso de Introdução à Análise de Dados com o R"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = true
 relativeurls = true
 # Enable Google Analytics by entering your tracking id
-googleAnalytics = ""
+# googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [params]
@@ -23,7 +23,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	logo = "images/logo_curso_intro-r.png"
 	favicon = ""
 
-	permalink = "../.."
+	permalink = "//."
 
 	# Custom assets
 	custom_css = []
@@ -46,32 +46,38 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	email   = "bruno.pinheiro.oliveira@usp.br"
 
 [[menu.main]]
-	name   = "Começo"
+	name   = "Começo de conversa"
 	url    = "/"
 	weight = 1
 
 [[menu.main]]
 	name   = "Aula 01: Introdução do curso"
 	url    = "aula-01/"
-	weight = 10
+	weight = 2
 	
 [[menu.main]]
 	name   = "Aula 02: Introdução ao R"
 	url    = "aula-02/"
-	weight = 10
+	weight = 3
 
 [[menu.main]]
 	name   = "Aula 03: Análise exploratória de dados (Parte 1)"
 	url    = "aula-03/"
-	weight = 10
+	weight = 4
 
 [[menu.main]]
 	name   = "Aula 04: Análise exploratória de dados (Parte 2)"
 	url    = "aula-04/"
-	weight = 10
+	weight = 5
+	
+	[[menu.main]]
+	name   = "Aulas"
+	url    = "aulas/"
+	weight = 6
 
 [blackfriday]
 	smartypants	= true
 	fractions = true
 	smartDashes = true
 	plainIDAnchors = true
+	taskLists = true

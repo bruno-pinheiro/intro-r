@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aulas on Curso de Introdução à Análise de Dados com o R</title>
+    <link>/aulas/</link>
+    <description>Recent content in Aulas on Curso de Introdução à Análise de Dados com o R</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-BR</language>
+    
+	<atom:link href="/aulas/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/aulas/aula-01/aula01-apresentacao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/aulas/aula-01/aula01-apresentacao/</guid>
+      <description> Introdução à análise de dados com o R author: Bruno Pinheiro date: 18 de setembro de 2018 autosize: true
+R e RStudio Importar dados Importar os dados
+df &amp;lt;- read.csv(&amp;quot;dados/aula01.csv&amp;quot;, stringsAsFactors = FALSE)  E carregar os pacotes:
+library(dplyr) library(ggplot2)  For more details on authoring R presentations please visit https://support.rstudio.com/hc/en-us/articles/200486468.
+ Bullet 1 Bullet 2 Bullet 3  </description>
+    </item>
+    
+    <item>
+      <title>Curso de introdução à análise de dados com o R</title>
+      <link>/aulas/aula-01/aula01-apresentacao2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/aulas/aula-01/aula01-apresentacao2/</guid>
+      <description>R Markdown df &amp;lt;- read.csv(&amp;quot;dados/aula01.csv&amp;quot;, stringsAsFactors = FALSE) library(dplyr) ## ## Attaching package: &amp;#39;dplyr&amp;#39; ## The following objects are masked from &amp;#39;package:stats&amp;#39;: ## ## filter, lag ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## intersect, setdiff, setequal, union library(ggplot2)  This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.</description>
+    </item>
+    
+    <item>
+      <title>Exercícios da Aula 01</title>
+      <link>/aulas/aula-01/aula01-exercicio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/aulas/aula-01/aula01-exercicio/</guid>
+      <description>Síntese da aula Aqui resumimos rapidamente o conteúdo desta aula em tópicos:
+Aspectos introdutórios  Os programas R e RStudio Uso de funções e operadores no R Istalação de pacotes Checagem dos dados Estrutura de dados no R e tipos de variáveis Criação de tabelas de frequência com count() Criação de gráficos (barras, histograma, boxplot) Encadeamento de funções com o pipe %&amp;gt;% Como obter ajuda   Operadores  :: – é usado após o nome de um pacote para chamar uma função (pacote::função())</description>
+    </item>
+    
+    <item>
+      <title>Intro R - Aula 01</title>
+      <link>/aulas/aula01-apresentacao/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/aulas/aula01-apresentacao/</guid>
+      <description>Objetivos do dia  Detalhar o curso e como participar;
+ Conhecer a interface do R e o RStudio;
+ Conhecer o fluxo de trabalho (console, scripts, rmarkdown, projetos);
+ Experimentar os primeiros comandos para a realização de análises descritivas.
+   </description>
+    </item>
+    
+  </channel>
+</rss>

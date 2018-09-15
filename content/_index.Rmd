@@ -3,41 +3,206 @@ title: "Curso de introdução à análise de dados com o R"
 author: "Bruno Pinheiro"
 date: "2018-08-22"
 type: index
+css: style.css
 weight: 0
 ---
 
-## Apresentação
+## Apresentação {#apresentacao}
 
-Nos dias atuais, não apenas os governos têm sistematizado e publicizado uma quantidade enorme de bases de dados a respeito das políticas que executam e do funcionamento da máquina pública. Atores variados da sociedade civil e da academia têm utilizado-se destes dados para colaborar na produção de inovações em serviços e na melhoria das políticas públicas como um todo.
+Então estamos começando o "Curso de Introdução à Análise de Dados com o R".
+Sejam muito bem vindos e bem vindas :).
 
-Conforme os dados tornam-se uma das mais importantes matérias-primas da inovação e da produção de bens e serviços à sociedade, a ciência de dados é cada dia mais presente na arena das políticas públicas.
+Nos dias atuais, não apenas os governos têm sistematizado e publicizado uma
+quantidade enorme de bases de dados a respeito das políticas que executam e do
+funcionamento da máquina pública. Atores variados da sociedade civil e da
+academia têm utilizado-se destes dados para colaborar na produção de inovações
+em serviços e na melhoria das políticas públicas como um todo.
 
-Neste cenário, os profissionais que atuam na área são demandados por competências relacionadas à análise de dados. O "Curso de Introdução à Análise de Dados com o R", desta maneira, surge como uma demanda natural na área de gestão de políticas públicas da [EACH/USP](http://each.usp.br/) - Escola de Artes, Ciências e Humanidades da Universidade de São Paulo.
+Conforme os dados tornam-se uma das mais importantes matérias-primas da
+inovação e da produção de bens e serviços à sociedade, a ciência de dados é
+cada dia mais presente na arena das políticas públicas.
 
-O curso é uma iniciativa da [Vertuno](http://vertunojr.wordpress.com/) - Empresa Júnior de Gestão de Políticas Públicas da USP, em parceria com o [GETIP](http://getip.net.br/) - Grupo de Estudos em Tecnologias e Inovações na Gestão Pública e o [OIPP](http://www5.each.usp.br/web/prof/oipp/) - Observatório Interdisciplinar de Políticas Públicas.
+Neste cenário, os profissionais que atuam na área são demandados por
+competências relacionadas à análise de dados. O "Curso de Introdução à Análise
+de Dados com o R", desta maneira, surge como uma demanda natural na área de
+gestão de políticas públicas da [EACH/USP](http://each.usp.br/) - Escola de
+Artes, Ciências e Humanidades da Universidade de São Paulo.
 
-Este site tem o material do curso, que será incrementando no decorrer dos encontros, e será mantido após o término como forma de fornecer acesso aos interessados posteriormente.
+O curso é uma iniciativa da [Vertuno](http://vertunojr.wordpress.com/) -
+Empresa Júnior de Gestão de Políticas Públicas da USP, em parceria com o
+[GETIP](http://getip.net.br/) - Grupo de Estudos em Tecnologias e Inovações
+na Gestão Pública e o [OIPP](http://www5.each.usp.br/web/prof/oipp/) -
+Observatório Interdisciplinar de Políticas Públicas.
 
-## Objetivos
+Este site tem o material do curso, que será incrementando no decorrer dos
+encontros, e será mantido após o término como forma de fornecer acesso aos
+interessados posteriormente.
 
-* O objetivo instrumental do curso é que ao final os participantes sejam capazes de realizar análises exploratórias no R, mesmo que nunca tenham utilizado o R antes.
+## Objetivos {#objetivos}
 
-* O objetivo substantivo é quebrar a barreira inicial (e natural) que geralmente existe em setores das ciências humanas em relação à aprendizagem de uma linguagem de programação voltada à análise de dados.
+* O objetivo instrumental do curso é que ao final os participantes sejam
+capazes de realizar análises exploratórias no R, mesmo que nunca tenham
+utilizado o R antes.
 
-* Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos e empolgados para seguir aprendendo mais sobre o R e incorporar seu uso no cotidiano.
+* O objetivo substantivo é quebrar a barreira inicial (e natural) que
+geralmente existe em setores das ciências humanas em relação à aprendizagem de
+uma linguagem de programação voltada à análise de dados.
 
-## Público
+* Mas o objetivo maior é que no fim todos estejam sentindo-se muito bem, aptos
+e empolgados para seguir aprendendo mais sobre o R e incorporar seu uso no
+cotidiano.
 
-Este não é um curso voltado para pessoas já iniciadas e que já utilizam o R para análise de dados.
+## Público {#publico}
 
-Ele é voltado a pessoas que trabalham ou que pretendem trabalhar com dados e têm interesse em aprender uma linguagem computacional, apropriar-se de ferramentas de ciência aberta, mas sentem insegurança frente ao dragão da programação.
+Este não é um curso voltado para pessoas já iniciadas e que já utilizam o R
+para análise de dados.
 
-## Pré-requisitos
+Ele é voltado a pessoas que trabalham ou que pretendem trabalhar com dados e
+têm interesse em aprender uma linguagem computacional, apropriar-se de
+ferramentas de ciência aberta, mas sentem insegurança frente ao dragão da
+programação.
 
-Não há pré-requisitos para a participação no curso. Ainda assim, você provavelmente terá um maior aproveitamento:
+## Pré-requisitos {#pre-requisitos}
 
-* Se usar, usar, usar e usar o R repetidamente para tarefas simples que antes você realizava com outros programas do tipo aponte e clique.
+Não há pré-requisitos para a participação no curso. Ainda assim, você
+provavelmente terá um maior aproveitamento:
 
-* Se atualmente a análise de dados é uma tarefa envolvida nas atividades do seu trabalho ou pesquisa e você puder usar, usar, usar o R ao invés de outros programas.
+* Se usar, usar, usar e usar o R repetidamente para tarefas simples que antes
+você realizava com outros programas do tipo aponte e clique.
+
+* Se atualmente a análise de dados é uma tarefa envolvida nas atividades do seu
+trabalho ou pesquisa e você puder usar, usar, usar o R ao invés de outros
+programas.
 
 * Se você é uma pessoa que sabe aprender sozinho
+
+## O curso {#o-curso}
+
+Esperamos, neste e nos próximos encontros, proporcionar a prática da aplicação
+de técnicas próprias da linguagem [`R`](https://www.r-project.org/about.html)
+para analisar conjuntos de dados a fim de explorar questões-problema.
+
+Neste processo, focaremos:
+
+1. Em conhecer a lógica da linguagem `R` e, mais especificamente, em usar a
+linguagem derivada do [`tidyverse`](https://dplyr.tidyverse.org/);
+
+2. Na realização de análise exploratória de dados.
+
+E para maximizar a aprendizagem prática, a filosofia em todos os encontros
+será:
+
+<font size = "5">
+Fazer primeiro, pensar depois
+</font>
+
+Até mesmo pela extensão do curso (que somará 16 horas totais de carga horária),
+seu escopo é realmente introdutório. Dentro das possibilidades de uso do `R`,
+buscaremos nos aprofundar o tanto quanto possível nos aspectos necessários para
+habilitar a aprendizagem do `R`. Ou seja, mais que ensinar a usar, pretendemos
+ensinar a aprender o `R` de uma forma aplicada e descontraída.
+
+Não espere, portanto, que ao término do curso você sairá por aí programando em
+`R`. Caso dedique-se, você será capaz de entender melhor a sintaxe e algumas
+sutilezas e, se dedicar-se um pouco mais, será capaz de substituir programas do
+tipo aponte e clique como o *Microsoft Excel* ou *Google Spreadsheets* pelo `R`
+para manipular e visualizar dados.
+
+Isto, por si só, não é nada trivial. Há uma boa discussão a respeito das
+vantagens da adoção de linguagens computacionais como método de manipulação e
+análise de dados em relação aos programas convencionais baseados no "aponte e
+clique" do *mouse*.
+
+De modo geral, podemos dizer que:
+
+* Tem capacidades avançadas, o custo é zero e a cada ano que passa ganha mais
+consistência e usabilidade;
+
+* Foi feito por e para cientistas em geral e não para cientistas da computação;
+
+* Agrega em si as ferramentas necessárias para cobrir todo o fluxo de trabalho: 
+da obtenção dos dados à comunicação;
+
+* É uma das maiores tendências em análise de dados;
+
+* Garante acesso fácil a todo o histórico de decisões feitas no processo de
+manipulação e análise dos dados;
+
+* Gera resultados mais confiáveis, já que o procedimento exato pode ser
+compartilhado;
+
+* Economiza tempo, já que toda alteração pode ser mais facilmente implementada
+do que em programas "aponte e clique".
+
+* Aumenta o potencial de replicabilidade dos resultados obtidos, o que é um
+aspecto desejável de qualquer pesquisa;
+
+Para quem quiser entender melhor, sugiro a leitura das reflexões apresentadas
+[aqui](http://fmwww.bc.edu/GStat/docs/pointclick.html) neste material elaborado
+por membros da *Faculty Microcomputer Resource Center* da *Boston College*.
+
+## Desafios {#desafios}
+
+O `R` é uma linguagem extremamente versátil. Pessoas muito experientes advogam
+que para cobrir todos os aspectos envolvidos na programação em `R` são
+necessários intensos de 5 a 6 semestres. Para pessoas com algum conhecimento
+prévio em linguagens de programação, o aprendizado pode até ser intuitivo, mas
+para quem nunca teve contato com computação estatística e programação, começar
+é a etapa mais difícil.
+
+Rogier Kievit, que atualmente é líder de programa na *MRC Cognition and Brain
+Sciences Unit* da *Cambridge University*, certa vez publicou em seu Twitter um
+gráfico (veja a figura \@ref(fig:curva)) que, brincando, compara a curva de
+aprendizagem de alguns programas de análise de dados.
+
+```{r, echo = FALSE}
+blogdown::shortcode('tweet', '730863729420701697')
+```
+
+```{r curva, echo=FALSE, fig.align='center', fig.cap='Curvas de aprendizagem', out.width='60%'}
+knitr::include_graphics("img/learning-r.jpeg")
+```
+
+Brincadeiras à parte, o gráfico de certa forma traduz um pouco da realidade. O
+`R` é uma linguagem complexa e, de fato, aprender o básico implica aprender
+muita coisa. Isto pode tornar a curva de aprendizagem inicial um verdadeiro
+campo de batalha e levar muitos a desistir pelo caminho.
+
+A primeira boa notícia é que não precisa ser exatamente assim. Mais
+recentemente, o conjunto de pacotes conhecido como `tidyverse` estabeleceu uma
+abordagem mais estruturada e consistente para trabalhar com dados no R, o que
+torna inclusive o aprendizado mais fácil. A segunda boa notícia é que,
+superadas as barreiras iniciais, os usuários em geral perceberação que seu
+potencial de análise de dados subiu para outro patamar.
+
+Neste contexto, portanto, teremos alguns desafios para lidar conjuntamente.
+Principalmente:
+
+* É o primeiro curso deste tipo que fazemos, então tudo é novidade e estamos
+todos literalmente aprendendo juntos;
+
+* O curso é extremamente curto, o que vai demandar atenção pessoal dedicada
+e intensiva;
+
+* Não há muito material em português;
+
+* As aulas não serão suficientes para apropriar-se da linguagem: o `R` só se
+aprende usando. Instale em sua máquina e tente usar em suas tarefas rotineiras.
+
+## Como vai funcionar? {#como-vai-funcionar}
+
+* O curso é presencial e terá 8 encontros, com duas horas cada, somando 16h de
+carga horária. Em cada encontro trataremos dos seguintes temas:
+    1. Introdução ao R
+    2. Sumarização e visualização de dados
+    3. Manipulação de dados
+    4. Funções
+    5. ...
+
+* Cada encontro conterá três partes:
+    (a) Uma parte inicial mais explanatória, para apresentar o que será
+    trabalhado no dia;
+    (b) Uma segunda parte na qual vamos experimentar formas de analisar dados
+    na linha de comando;
+    (c) Uma terceira parte na qual realizaremos um exercício para colocar em
+    prática o que foi aprendido no dia.
