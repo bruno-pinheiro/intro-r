@@ -46,13 +46,16 @@ Como pode ver, cada vetor se tornou uma variável (coluna) da nossa tabela df.</
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/materiais/</guid>
-      <description>Materiais do curso  Aula 01   Materiais de referência Livros  R for Data Science
+      <description>Materiais do curso Clique nos links abaixo para fazer o download dos materiais e dados utilizados em cada aula.
+ Aula 01
+ Aula 02
+ Aula 03
+   Materiais de referência Livros  R for Data Science
  Exploratory data analysis with R
  R Cookbook
  R Cookbook for Data Analysis
     Cheat sheets  manipulação de dados com dplyr
- visualização de dados com ggplot2
-   </description>
+ visualização de dados com ggplot2</description>
     </item>
     
   </channel>
