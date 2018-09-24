@@ -23,12 +23,21 @@ qplot(data = pessoas, idade, geom = "bar", position = "count")
 
 write.csv(pessoas, "content/aula-01/dados/pessoas.csv", row.names = FALSE)
 
-df <- read.csv("content/aula-01/dados/selecionadas.csv", stringsAsFactors = FALSE)
+df <- read.csv("content/aula01/dados/selecionadas.csv", stringsAsFactors = FALSE)
+
+ggplot(df, aes(x = IdadeAnos, y = RendTrabPrinc, colour = Sexo)) +
+  geom_count(alpha = .3) +
+  scale_y_continuous(limits = c(0,10000)) +
+  scale_size_area(max_size = 10) +
+  facet_grid(~ Sexo)
+
+
+unique(df$RendTrabDemais)
 
 length(unique(df$AreaPonderacao))
 
 df <- df %>%
-  filter(AreaPonderacao %in% sample(df$AreaPonderacao, size = 5)) %>%
+  filter(AreaPonderacao %in% sample(df$AreaPonderacao, size = 10)) %>%
   select(Raca, Sexo, EstadoCivil, NumPessoasFam, IdadeAnos,
          RendTrabPrinc, RendTrabDemais, RendOutrasFontes)
 

@@ -4,8 +4,14 @@ title: "Materiais do curso e de referência"
 
 ## Materiais do curso
 
+Clique nos links abaixo para fazer o download dos materiais e dados utilizados
+em cada aula.
+
 * [Aula 01](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula01.zip)
 
+* [Aula 02](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula02.zip)
+
+* [Aula 03](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula03.zip)
 
 ## Materiais de referência
 
