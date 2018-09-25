@@ -1,0 +1,29 @@
+.article img {
+  padding: 30px 0 0 0;
+}
+
+.article p {
+  font-size:15px;
+}
+
+.article h1 {
+  font-weight:700;
+  font-size:34px;
+}
+
+.article h2 {
+  font-weight:500;
+  font-size:30px;
+}
+
+.article h3 {
+  font-weight:400;
+  font-size:22px;
+  color:#66b2b2;
+}
+
+.article h4 {
+  font-weight:400;
+  font-size:18px;
+  color:#66b2b2;
+}

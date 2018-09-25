@@ -51,10 +51,15 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 	weight = 1
 
 [[menu.main]]
-	name   = "Aula 01: Introdução do curso"
-	url    = "aula01/"
+	name   = "1. Introdução"
+	url    = "introducao/"
 	weight = 2
 
+#[[menu.main]]
+#	name   = "Visualização de dados"
+#	url    = "visualizacao/"
+#	weight = 3
+	
 #[[menu.main]]
 #	name   = "Aula 02: Visualização de dados"
 #	url    = "aula-02/"

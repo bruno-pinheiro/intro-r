@@ -22,20 +22,20 @@
     
     <item>
       <title>Aula 01: Introdução do curso</title>
-      <link>/aula01/</link>
+      <link>/introducao/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/aula01/</guid>
+      <guid>/introducao/</guid>
       <description>R e RStudio O R é um ambiente e também uma linguagem para a computação estatística e a produção de gráficos. Basicamente é um programa de linha de comando1, que permite acessar, manipular e visualizar dados, criando e guardando rotinas de análise que podem ser compartilhadas e replicadas tanto na forma de scripts como na forma de pacotes.
 O programa surgiu em meados dos anos 1990 como uma alternativa para computação estatística (gratuita e de código aberto) feita para profissionais cuja origem não era a das ciências da computação.</description>
     </item>
     
     <item>
       <title>Aula 02: Introdução ao tidyverse</title>
-      <link>/aula02/</link>
+      <link>/visualizacao/</link>
       <pubDate>Wed, 22 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>/aula02/</guid>
+      <guid>/visualizacao/</guid>
       <description>Tópico 1 Missing data: o “dado faltante” é um dado que deveria ou poderia estar presente no conjunto de dados, mas por algum motivo não está. No R os valores ausentes são geralmente dados por NA.  Agora vamos uní-los em um data.frame (mais adiante explicaremos o que é um data frame), para deixar os dados em forma de tabela.
 Como pode ver, cada vetor se tornou uma variável (coluna) da nossa tabela df.</description>
     </item>
