@@ -13,6 +13,8 @@ em cada aula.
 
 * [Aula 03](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula03.zip)
 
+* [Aula 04](https://github.com/bruno-pinheiro/intro-r/raw/master/content/materiais/aula04.zip)
+
 ## Materiais de referência
 
 ### Livros
